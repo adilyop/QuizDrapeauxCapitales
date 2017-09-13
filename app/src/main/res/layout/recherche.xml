@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sky"  >
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="#66C4CDE0" >
+
+
+            <FrameLayout
+                android:id="@+id/frameLayoutBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:src="@android:drawable/ic_menu_revert" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/frameLayout1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/textView1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Informations"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#940202"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selectioner le domaine de recherche : "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffff0000"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp" >
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALL"
+                    android:layout_margin="5dp"
+                    android:textColor="#ff000000" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afrique"
+                    android:layout_margin="5dp"
+                    android:textColor="#ff000000" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amérique"
+                    android:textColor="#ff000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asie"
+                    android:textColor="#ff000000" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Europe"
+                    android:textColor="#ff000000" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Océanie"
+                    android:textColor="#ff000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom du pays ou capitale : "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffff0000"
+                android:textSize="15dp" />
+
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/valider1"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#C4CDE0"
+                    android:background="@drawable/shapevalider"
+                    android:text="pays" />
+
+                <Button
+                    android:id="@+id/valider2"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#C4CDE0"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shapevalider"
+                    android:text="capitale" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:weightSum="1">
+
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_weight="0.32" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="180dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#C4CDE0"
+                android:background="@drawable/shapenext"
+                android:text="VALIDER"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

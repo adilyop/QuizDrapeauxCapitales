@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textDrapeaux"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="JEUX DRAPEAUX"
+        android:textColor="#C4CDE0"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textcapitales"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="JEUX CAPITALES"
+            android:textColor="#C4CDE0"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textrecherche"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="INFORMATIONS"
+            android:textColor="#C4CDE0"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
